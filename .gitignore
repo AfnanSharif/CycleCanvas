@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & secrets
+.env
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated outputs
+outputs/
+checkpoints/
+
+# Dataset downloads
+data/trainA/
+data/trainB/
+data/testA/
+data/testB/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated images
+*.fake.png
+*.fake.jpg
